@@ -1,0 +1,14 @@
+{
+  "proxy": {
+    "/megachat/ws": {
+      "target": "ws://localhost:8282",
+      "ws": true
+    },
+    "/megachat/upload-photo": {
+      "target": "http://localhost:8282"
+    },
+    "/megachat/photos": {
+      "target": "http://localhost:8282"
+    }
+  }
+}
